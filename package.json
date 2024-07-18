@@ -1,0 +1,27 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@axe-core/playwright": "^4.9.1",
+    "codeceptjs": "^3.6.4",
+    "codeceptjs-a11y-helper": "^1.5.3",
+    "codeceptjs-resemblehelper": "^1.9.7",
+    "playwright": "^1.45.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "axe-core": "^4.9.1",
+    "axe-playwright": "^2.0.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.5.3"
+  }
+}
